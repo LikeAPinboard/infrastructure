@@ -58,7 +58,7 @@
           "type": "integer",
           "index": "not_analyzed"
         },
-        "user_id": {
+        "userId": {
           "type": "integer",
           "index": "not_analyzed"
         },
@@ -83,16 +83,8 @@
           "analyzer": "ngram_analyzer"
         },
         "timestamp": {
-          "type": "integer",
+          "type": "long",
           "index": "not_analyzed"
-        },
-        "created_at": {
-          "type": "date",
-          "format": "date_hour_minute_second"
-        },
-        "updated_at": {
-          "type": "date",
-          "format": "date_hour_minute_second"
         }
       }
     },

@@ -37,7 +37,7 @@ CREATE TABLE `users` (
   `username` varchar(64) NOT NULL COMMENT 'ユーザ名',
   `created_at` datetime NOT NULL COMMENT '作成日時',
   `updated_at` datetime NOT NULL COMMENT '更新日時'
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Indexes for table `pins`
@@ -82,4 +82,4 @@ ALTER TABLE `tags`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ユーザID',AUTO_INCREMENT=2;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ユーザID',AUTO_INCREMENT;
